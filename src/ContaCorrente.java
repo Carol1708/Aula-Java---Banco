@@ -7,7 +7,7 @@ public class ContaCorrente extends Conta{
     }
 
     public void mostrarDados(){
-        super.mostrarDados();
+        super.mostrarDados(); // pq esta puxando esse metodo da super clsse (conta)
         System.out.println("Essa conta tem atendimento do tipo: " + getAtendimento());
     }
 
